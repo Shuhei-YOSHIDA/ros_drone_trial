@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(frying_example)
+project(flying_example)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++11)
@@ -105,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES frying_example
+#  LIBRARIES flying_example
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -123,7 +123,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/frying_example.cpp
+#   src/${PROJECT_NAME}/flying_example.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -198,7 +198,7 @@ target_link_libraries(hector_quadrotor_ex_node
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_frying_example.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_flying_example.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
